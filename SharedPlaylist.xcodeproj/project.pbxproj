@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65001CE4197E440900856F31 /* DFLJoinPlaylistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65001CE3197E440900856F31 /* DFLJoinPlaylistViewController.m */; };
+		65001CFF197F928100856F31 /* NSMutableArray+QueueMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 65001CE7197F928000856F31 /* NSMutableArray+QueueMethods.m */; };
+		65001D00197F928100856F31 /* TDAudioFileStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 65001CEA197F928000856F31 /* TDAudioFileStream.m */; };
+		65001D01197F928100856F31 /* TDAudioQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 65001CEC197F928000856F31 /* TDAudioQueue.m */; };
+		65001D02197F928100856F31 /* TDAudioQueueBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 65001CEE197F928000856F31 /* TDAudioQueueBuffer.m */; };
+		65001D03197F928100856F31 /* TDAudioQueueBufferManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65001CF0197F928000856F31 /* TDAudioQueueBufferManager.m */; };
+		65001D04197F928100856F31 /* TDAudioQueueController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65001CF2197F928000856F31 /* TDAudioQueueController.m */; };
+		65001D05197F928100856F31 /* TDAudioQueueFiller.m in Sources */ = {isa = PBXBuildFile; fileRef = 65001CF4197F928000856F31 /* TDAudioQueueFiller.m */; };
+		65001D06197F928100856F31 /* TDAudioStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 65001CF6197F928000856F31 /* TDAudioStream.m */; };
+		65001D07197F928100856F31 /* TDAudioInputStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 65001CF8197F928000856F31 /* TDAudioInputStreamer.m */; };
+		65001D08197F928100856F31 /* TDAudioOutputStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 65001CFA197F928000856F31 /* TDAudioOutputStreamer.m */; };
+		65001D09197F928100856F31 /* TDAudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 65001CFC197F928000856F31 /* TDAudioStreamer.m */; };
+		65001D0A197F928100856F31 /* TDAudioStreamerConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 65001CFE197F928000856F31 /* TDAudioStreamerConstants.m */; };
+		65001D0D197F99A400856F31 /* TDSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 65001D0C197F99A400856F31 /* TDSession.m */; };
 		65A8DB3C1975E34000AF8DB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A8DB3B1975E34000AF8DB9 /* Foundation.framework */; };
 		65A8DB3E1975E34000AF8DB9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A8DB3D1975E34000AF8DB9 /* CoreGraphics.framework */; };
 		65A8DB401975E34000AF8DB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A8DB3F1975E34000AF8DB9 /* UIKit.framework */; };
@@ -19,6 +33,15 @@
 		65A8DB571975E34100AF8DB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A8DB3F1975E34000AF8DB9 /* UIKit.framework */; };
 		65A8DB5F1975E34100AF8DB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65A8DB5D1975E34100AF8DB9 /* InfoPlist.strings */; };
 		65A8DB611975E34100AF8DB9 /* SharedPlaylistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A8DB601975E34100AF8DB9 /* SharedPlaylistTests.m */; };
+		65A8DB6D1975E4B200AF8DB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65A8DB6C1975E4B200AF8DB9 /* Main.storyboard */; };
+		65B59BBF1978865100586E5F /* DFLBuildNewPlaylistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B59BBE1978865100586E5F /* DFLBuildNewPlaylistViewController.m */; };
+		65B59BC21978896700586E5F /* DFLPlaylistObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B59BC11978896700586E5F /* DFLPlaylistObject.m */; };
+		65B59BC51978906500586E5F /* DFLMainPlaylistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B59BC41978906500586E5F /* DFLMainPlaylistViewController.m */; };
+		65B59BCE1978DB2A00586E5F /* DFLJoinPlaylistTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B59BCD1978DB2A00586E5F /* DFLJoinPlaylistTableViewController.m */; };
+		65B59BD1197E37D700586E5F /* DFLMultipeerConnectivityHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B59BD0197E37D700586E5F /* DFLMultipeerConnectivityHandler.m */; };
+		65FE68301975FBCF005B2394 /* DFLAddTestItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FE682F1975FBCF005B2394 /* DFLAddTestItemViewController.m */; };
+		65FE68331975FD6E005B2394 /* DFLTestListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FE68321975FD6E005B2394 /* DFLTestListTableViewController.m */; };
+		65FE6836197602CF005B2394 /* DFLTestItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FE6835197602CF005B2394 /* DFLTestItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +55,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65001CE2197E440900856F31 /* DFLJoinPlaylistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFLJoinPlaylistViewController.h; sourceTree = "<group>"; };
+		65001CE3197E440900856F31 /* DFLJoinPlaylistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFLJoinPlaylistViewController.m; sourceTree = "<group>"; };
+		65001CE6197F928000856F31 /* NSMutableArray+QueueMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+QueueMethods.h"; sourceTree = "<group>"; };
+		65001CE7197F928000856F31 /* NSMutableArray+QueueMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+QueueMethods.m"; sourceTree = "<group>"; };
+		65001CE9197F928000856F31 /* TDAudioFileStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAudioFileStream.h; sourceTree = "<group>"; };
+		65001CEA197F928000856F31 /* TDAudioFileStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAudioFileStream.m; sourceTree = "<group>"; };
+		65001CEB197F928000856F31 /* TDAudioQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAudioQueue.h; sourceTree = "<group>"; };
+		65001CEC197F928000856F31 /* TDAudioQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAudioQueue.m; sourceTree = "<group>"; };
+		65001CED197F928000856F31 /* TDAudioQueueBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAudioQueueBuffer.h; sourceTree = "<group>"; };
+		65001CEE197F928000856F31 /* TDAudioQueueBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAudioQueueBuffer.m; sourceTree = "<group>"; };
+		65001CEF197F928000856F31 /* TDAudioQueueBufferManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAudioQueueBufferManager.h; sourceTree = "<group>"; };
+		65001CF0197F928000856F31 /* TDAudioQueueBufferManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAudioQueueBufferManager.m; sourceTree = "<group>"; };
+		65001CF1197F928000856F31 /* TDAudioQueueController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAudioQueueController.h; sourceTree = "<group>"; };
+		65001CF2197F928000856F31 /* TDAudioQueueController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAudioQueueController.m; sourceTree = "<group>"; };
+		65001CF3197F928000856F31 /* TDAudioQueueFiller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAudioQueueFiller.h; sourceTree = "<group>"; };
+		65001CF4197F928000856F31 /* TDAudioQueueFiller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAudioQueueFiller.m; sourceTree = "<group>"; };
+		65001CF5197F928000856F31 /* TDAudioStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAudioStream.h; sourceTree = "<group>"; };
+		65001CF6197F928000856F31 /* TDAudioStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAudioStream.m; sourceTree = "<group>"; };
+		65001CF7197F928000856F31 /* TDAudioInputStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TDAudioInputStreamer.h; path = "../../TDAudioStreamer/TDAudioStreamer-master/TDAudioStreamer/AudioStreamer/TDAudioInputStreamer.h"; sourceTree = "<group>"; };
+		65001CF8197F928000856F31 /* TDAudioInputStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDAudioInputStreamer.m; path = "../../TDAudioStreamer/TDAudioStreamer-master/TDAudioStreamer/AudioStreamer/TDAudioInputStreamer.m"; sourceTree = "<group>"; };
+		65001CF9197F928000856F31 /* TDAudioOutputStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TDAudioOutputStreamer.h; path = "../../TDAudioStreamer/TDAudioStreamer-master/TDAudioStreamer/AudioStreamer/TDAudioOutputStreamer.h"; sourceTree = "<group>"; };
+		65001CFA197F928000856F31 /* TDAudioOutputStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDAudioOutputStreamer.m; path = "../../TDAudioStreamer/TDAudioStreamer-master/TDAudioStreamer/AudioStreamer/TDAudioOutputStreamer.m"; sourceTree = "<group>"; };
+		65001CFB197F928000856F31 /* TDAudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TDAudioStreamer.h; path = "../../TDAudioStreamer/TDAudioStreamer-master/TDAudioStreamer/AudioStreamer/TDAudioStreamer.h"; sourceTree = "<group>"; };
+		65001CFC197F928000856F31 /* TDAudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDAudioStreamer.m; path = "../../TDAudioStreamer/TDAudioStreamer-master/TDAudioStreamer/AudioStreamer/TDAudioStreamer.m"; sourceTree = "<group>"; };
+		65001CFD197F928000856F31 /* TDAudioStreamerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TDAudioStreamerConstants.h; path = "../../TDAudioStreamer/TDAudioStreamer-master/TDAudioStreamer/AudioStreamer/TDAudioStreamerConstants.h"; sourceTree = "<group>"; };
+		65001CFE197F928000856F31 /* TDAudioStreamerConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDAudioStreamerConstants.m; path = "../../TDAudioStreamer/TDAudioStreamer-master/TDAudioStreamer/AudioStreamer/TDAudioStreamerConstants.m"; sourceTree = "<group>"; };
+		65001D0B197F99A400856F31 /* TDSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TDSession.h; path = "../TDAudioStreamer/TDAudioStreamer-master/TDAudioStreamer/Classes/TDSession.h"; sourceTree = "<group>"; };
+		65001D0C197F99A400856F31 /* TDSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDSession.m; path = "../TDAudioStreamer/TDAudioStreamer-master/TDAudioStreamer/Classes/TDSession.m"; sourceTree = "<group>"; };
 		65A8DB381975E34000AF8DB9 /* SharedPlaylist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharedPlaylist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65A8DB3B1975E34000AF8DB9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		65A8DB3D1975E34000AF8DB9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +99,23 @@
 		65A8DB5C1975E34100AF8DB9 /* SharedPlaylistTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SharedPlaylistTests-Info.plist"; sourceTree = "<group>"; };
 		65A8DB5E1975E34100AF8DB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		65A8DB601975E34100AF8DB9 /* SharedPlaylistTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SharedPlaylistTests.m; sourceTree = "<group>"; };
+		65A8DB6C1975E4B200AF8DB9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		65B59BBD1978865100586E5F /* DFLBuildNewPlaylistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFLBuildNewPlaylistViewController.h; sourceTree = "<group>"; };
+		65B59BBE1978865100586E5F /* DFLBuildNewPlaylistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFLBuildNewPlaylistViewController.m; sourceTree = "<group>"; };
+		65B59BC01978896700586E5F /* DFLPlaylistObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFLPlaylistObject.h; sourceTree = "<group>"; };
+		65B59BC11978896700586E5F /* DFLPlaylistObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFLPlaylistObject.m; sourceTree = "<group>"; };
+		65B59BC31978906500586E5F /* DFLMainPlaylistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFLMainPlaylistViewController.h; sourceTree = "<group>"; };
+		65B59BC41978906500586E5F /* DFLMainPlaylistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFLMainPlaylistViewController.m; sourceTree = "<group>"; };
+		65B59BCC1978DB2A00586E5F /* DFLJoinPlaylistTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFLJoinPlaylistTableViewController.h; sourceTree = "<group>"; };
+		65B59BCD1978DB2A00586E5F /* DFLJoinPlaylistTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFLJoinPlaylistTableViewController.m; sourceTree = "<group>"; };
+		65B59BCF197E37D700586E5F /* DFLMultipeerConnectivityHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFLMultipeerConnectivityHandler.h; sourceTree = "<group>"; };
+		65B59BD0197E37D700586E5F /* DFLMultipeerConnectivityHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFLMultipeerConnectivityHandler.m; sourceTree = "<group>"; };
+		65FE682E1975FBCF005B2394 /* DFLAddTestItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFLAddTestItemViewController.h; sourceTree = "<group>"; };
+		65FE682F1975FBCF005B2394 /* DFLAddTestItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFLAddTestItemViewController.m; sourceTree = "<group>"; };
+		65FE68311975FD6E005B2394 /* DFLTestListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFLTestListTableViewController.h; sourceTree = "<group>"; };
+		65FE68321975FD6E005B2394 /* DFLTestListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFLTestListTableViewController.m; sourceTree = "<group>"; };
+		65FE6834197602CF005B2394 /* DFLTestItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFLTestItem.h; sourceTree = "<group>"; };
+		65FE6835197602CF005B2394 /* DFLTestItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFLTestItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +142,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65001CE5197F928000856F31 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				65001CE6197F928000856F31 /* NSMutableArray+QueueMethods.h */,
+				65001CE7197F928000856F31 /* NSMutableArray+QueueMethods.m */,
+			);
+			name = Categories;
+			path = "../../TDAudioStreamer/TDAudioStreamer-master/TDAudioStreamer/AudioStreamer/Categories";
+			sourceTree = "<group>";
+		};
+		65001CE8197F928000856F31 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				65001CE9197F928000856F31 /* TDAudioFileStream.h */,
+				65001CEA197F928000856F31 /* TDAudioFileStream.m */,
+				65001CEB197F928000856F31 /* TDAudioQueue.h */,
+				65001CEC197F928000856F31 /* TDAudioQueue.m */,
+				65001CED197F928000856F31 /* TDAudioQueueBuffer.h */,
+				65001CEE197F928000856F31 /* TDAudioQueueBuffer.m */,
+				65001CEF197F928000856F31 /* TDAudioQueueBufferManager.h */,
+				65001CF0197F928000856F31 /* TDAudioQueueBufferManager.m */,
+				65001CF1197F928000856F31 /* TDAudioQueueController.h */,
+				65001CF2197F928000856F31 /* TDAudioQueueController.m */,
+				65001CF3197F928000856F31 /* TDAudioQueueFiller.h */,
+				65001CF4197F928000856F31 /* TDAudioQueueFiller.m */,
+				65001CF5197F928000856F31 /* TDAudioStream.h */,
+				65001CF6197F928000856F31 /* TDAudioStream.m */,
+			);
+			name = Classes;
+			path = "../../TDAudioStreamer/TDAudioStreamer-master/TDAudioStreamer/AudioStreamer/Classes";
+			sourceTree = "<group>";
+		};
 		65A8DB2F1975E34000AF8DB9 = {
 			isa = PBXGroup;
 			children = (
+				65001D0B197F99A400856F31 /* TDSession.h */,
+				65001D0C197F99A400856F31 /* TDSession.m */,
 				65A8DB411975E34000AF8DB9 /* SharedPlaylist */,
 				65A8DB5A1975E34100AF8DB9 /* SharedPlaylistTests */,
 				65A8DB3A1975E34000AF8DB9 /* Frameworks */,
@@ -107,8 +209,37 @@
 		65A8DB411975E34000AF8DB9 /* SharedPlaylist */ = {
 			isa = PBXGroup;
 			children = (
+				65001CE5197F928000856F31 /* Categories */,
+				65001CE8197F928000856F31 /* Classes */,
+				65001CF7197F928000856F31 /* TDAudioInputStreamer.h */,
+				65001CF8197F928000856F31 /* TDAudioInputStreamer.m */,
+				65001CF9197F928000856F31 /* TDAudioOutputStreamer.h */,
+				65001CFA197F928000856F31 /* TDAudioOutputStreamer.m */,
+				65001CFB197F928000856F31 /* TDAudioStreamer.h */,
+				65001CFC197F928000856F31 /* TDAudioStreamer.m */,
+				65001CFD197F928000856F31 /* TDAudioStreamerConstants.h */,
+				65001CFE197F928000856F31 /* TDAudioStreamerConstants.m */,
 				65A8DB4A1975E34000AF8DB9 /* DFLAppDelegate.h */,
 				65A8DB4B1975E34000AF8DB9 /* DFLAppDelegate.m */,
+				65B59BCF197E37D700586E5F /* DFLMultipeerConnectivityHandler.h */,
+				65B59BD0197E37D700586E5F /* DFLMultipeerConnectivityHandler.m */,
+				65A8DB6C1975E4B200AF8DB9 /* Main.storyboard */,
+				65B59BC31978906500586E5F /* DFLMainPlaylistViewController.h */,
+				65B59BC41978906500586E5F /* DFLMainPlaylistViewController.m */,
+				65B59BC01978896700586E5F /* DFLPlaylistObject.h */,
+				65B59BC11978896700586E5F /* DFLPlaylistObject.m */,
+				65B59BBD1978865100586E5F /* DFLBuildNewPlaylistViewController.h */,
+				65B59BBE1978865100586E5F /* DFLBuildNewPlaylistViewController.m */,
+				65FE6834197602CF005B2394 /* DFLTestItem.h */,
+				65FE6835197602CF005B2394 /* DFLTestItem.m */,
+				65FE68311975FD6E005B2394 /* DFLTestListTableViewController.h */,
+				65FE68321975FD6E005B2394 /* DFLTestListTableViewController.m */,
+				65FE682E1975FBCF005B2394 /* DFLAddTestItemViewController.h */,
+				65FE682F1975FBCF005B2394 /* DFLAddTestItemViewController.m */,
+				65B59BCC1978DB2A00586E5F /* DFLJoinPlaylistTableViewController.h */,
+				65001CE2197E440900856F31 /* DFLJoinPlaylistViewController.h */,
+				65001CE3197E440900856F31 /* DFLJoinPlaylistViewController.m */,
+				65B59BCD1978DB2A00586E5F /* DFLJoinPlaylistTableViewController.m */,
 				65A8DB4D1975E34000AF8DB9 /* Images.xcassets */,
 				65A8DB421975E34000AF8DB9 /* Supporting Files */,
 			);
@@ -219,6 +350,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65A8DB6D1975E4B200AF8DB9 /* Main.storyboard in Resources */,
 				65A8DB461975E34000AF8DB9 /* InfoPlist.strings in Resources */,
 				65A8DB4E1975E34000AF8DB9 /* Images.xcassets in Resources */,
 			);
@@ -239,8 +371,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65FE68331975FD6E005B2394 /* DFLTestListTableViewController.m in Sources */,
+				65001D00197F928100856F31 /* TDAudioFileStream.m in Sources */,
+				65001D0D197F99A400856F31 /* TDSession.m in Sources */,
+				65001D05197F928100856F31 /* TDAudioQueueFiller.m in Sources */,
 				65A8DB481975E34000AF8DB9 /* main.m in Sources */,
+				65FE68301975FBCF005B2394 /* DFLAddTestItemViewController.m in Sources */,
+				65B59BC21978896700586E5F /* DFLPlaylistObject.m in Sources */,
 				65A8DB4C1975E34000AF8DB9 /* DFLAppDelegate.m in Sources */,
+				65001D09197F928100856F31 /* TDAudioStreamer.m in Sources */,
+				65001D0A197F928100856F31 /* TDAudioStreamerConstants.m in Sources */,
+				65001D01197F928100856F31 /* TDAudioQueue.m in Sources */,
+				65B59BCE1978DB2A00586E5F /* DFLJoinPlaylistTableViewController.m in Sources */,
+				65001CFF197F928100856F31 /* NSMutableArray+QueueMethods.m in Sources */,
+				65B59BD1197E37D700586E5F /* DFLMultipeerConnectivityHandler.m in Sources */,
+				65001D03197F928100856F31 /* TDAudioQueueBufferManager.m in Sources */,
+				65001D08197F928100856F31 /* TDAudioOutputStreamer.m in Sources */,
+				65001D06197F928100856F31 /* TDAudioStream.m in Sources */,
+				65001CE4197E440900856F31 /* DFLJoinPlaylistViewController.m in Sources */,
+				65001D07197F928100856F31 /* TDAudioInputStreamer.m in Sources */,
+				65001D02197F928100856F31 /* TDAudioQueueBuffer.m in Sources */,
+				65001D04197F928100856F31 /* TDAudioQueueController.m in Sources */,
+				65FE6836197602CF005B2394 /* DFLTestItem.m in Sources */,
+				65B59BC51978906500586E5F /* DFLMainPlaylistViewController.m in Sources */,
+				65B59BBF1978865100586E5F /* DFLBuildNewPlaylistViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +591,7 @@
 				65A8DB661975E34100AF8DB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65A8DB671975E34100AF8DB9 /* Build configuration list for PBXNativeTarget "SharedPlaylistTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +600,7 @@
 				65A8DB691975E34100AF8DB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
